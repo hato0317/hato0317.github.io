@@ -1,0 +1,246 @@
+@media only screen and (max-width:670px){
+
+header{
+height: auto;
+display: block;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 0px;
+padding-top: 20px;
+height: 65px;
+}
+.logo-right{
+font-size: 10px;
+text-align: right;
+width: 170px;
+height: 30px;
+}
+.container{
+
+}
+.area　{
+  width:100%;
+  text-align:center;
+  margin-bottom: 15px;
+}
+.area a{
+    padding: 20px;
+    display: inline-block;
+    margin-left: 5px;
+		margin-right: 5px;
+}
+
+.ticket {
+  left: 0px;
+  right: 0px;
+  top: auto;
+  bottom: auto;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
+  clear: both;
+  padding-bottom: 30px;
+}
+
+
+.country{
+  display: inline-block;
+  width: 40%;
+}
+.date{
+  display: inline-block;
+}
+
+.ticket a{
+     font-size: 9px;
+      padding: 5px;
+      transition: all 0.3s;
+      line-height: 100%;
+      padding-top: 5px;
+      padding-bottom: 3px;
+      margin-right: 200px;
+ display: inline-block;
+}
+
+footer{
+  text-align: center;
+  clear: both;
+  width: 100%;
+}
+.creative a{
+  text-align: center;
+  clear: both;
+  width: 100%;
+  white-space: nowrap
+}
+.icon a{
+  white-space: nowrap;
+  text-align: center;
+  clear: both;
+  width: 100%;
+  }
+}
+/*スマホ表示ここまで*/
+
+@media only screen and (min-width:670px) {
+  .blur{
+    display: none;
+  }
+}
+
+.container{
+  font-family: 'swiss',sans-serif;
+}
+
+header h1{
+  float: left;
+  font-size: 30px;
+  margin-left: 45px;
+}
+
+.logo-right {
+  float: right;
+  display: inline-block;
+  text-align: right;
+  font-size: 12px;
+  margin-right: 45px;
+}
+.logo-right h2 span{
+
+
+  display: inline-block;
+      border-bottom: 1px solid black;
+      width: 150px;
+      position: relative;
+      top: -4px;
+      margin-left: 4px;
+      margin-right: 4px;
+}
+
+.main-contents{
+  text-align: center;
+}
+.main-contents a{
+padding-top: 150px;
+font-size: 24px;
+display: inline-block;
+text-decoration: none;
+color: black;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+.area{
+  text-align: center;
+  padding: 10px 20px 20px 20px;
+
+}
+
+.area a{
+  border: solid 2px #000000;
+  padding:5px 15px;
+  margin: 0px 5px 9px;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  30px;
+}
+.area  :hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.ticket-menu{
+padding-top: 20px;
+}
+
+.ticket{
+  padding: 20px;
+  width: 600px;
+  margin: auto;
+}
+
+.ticket a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.date{
+font-size: 14px;
+font-weight: bold;
+} /*新しいクラス分け*/
+.country{
+font-size: 14px;
+font-weight: bold;
+} /*新しいクラス分け*/
+
+.ticket a{
+  padding: 10px 20px;
+  border: solid 2px #000000;
+  float:right;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.mgn{
+  margin-left: 20px
+}
+
+.mgnsecond{
+  margin-left: 8px;
+}
+
+.UI {
+
+}
+.NA{
+display: none;
+}
+.EU{
+display: none;
+}
+.AN{
+display: none;
+}
+.AS{
+display: none;
+}
+.link {
+  text-align: center;
+  margin: 30px 0px 50px 0px;
+}
+.link a{
+  margin: 0px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-family: 'swiss',sans-serif;
+}
+
+footer{
+  padding-top: 30px;
+}
+.creative a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  margin:50px;
+}
+
+footer .icon {
+  float: right;
+  margin-right: 45px;
+  font-family: 'swiss',sans-serif;
+}
+
+.icon a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  padding-top: 20px;
+  margin-left: 3px;
+  font-family: 'swiss',sans-serif;
+}
