@@ -1,71 +1,73 @@
-@media only screen and (max-width:670px){
+ia only screen and (max-width:670px){
 
-header{
-height: auto;
-display: block;
-padding-left: 20px;
-padding-right: 20px;
-padding-bottom: 0px;
-padding-top: 20px;
-height: 65px;
+  header{
+  padding-bottom: 0px;
+  padding-top: 20px;
+  width: 100%
+  }
+.container h1{
+  font-size: 20px;
+  text-align: left;
 }
-.logo-right{
-font-size: 10px;
-text-align: right;
-width: 170px;
-height: 30px;
+.logo-right h2,h3{
+font-size: 12px;
+width: 100%;
+height: 100%;
 }
-.container{
+*{
+  overflow: hidden;
+  width: initial !important;
+}
+.article{
+  padding-top: 20px !important;
+}
+.article a{
+  font-size: 16px !important;
+}
 
-}
 .area　{
   width:100%;
   text-align:center;
   margin-bottom: 15px;
 }
 .area a{
-    padding: 20px;
+    padding: 3px 10px 3px 10px !important;
     display: inline-block;
-    margin-left: 5px;
-		margin-right: 5px;
+    margin-left: 3px;
+		margin-right: 3px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
 }
 
 .ticket {
-  left: 0px;
-  right: 0px;
   top: auto;
   bottom: auto;
   position: relative;
-  margin-left: 0px;
-  margin-right: 0px;
   clear: both;
-  padding-bottom: 30px;
+  padding: 7px 5px !important;
 }
-
-
-.country{
-  display: inline-block;
-  width: 40%;
+.ticket span{
+  font-size: 12px;
 }
-.date{
-  display: inline-block;
-}
-
 .ticket a{
-     font-size: 9px;
-      padding: 5px;
-      transition: all 0.3s;
-      line-height: 100%;
-      padding-top: 5px;
-      padding-bottom: 3px;
-      margin-right: 200px;
- display: inline-block;
+  padding: 2px 8px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
 }
 
+.link a{
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
 footer{
   text-align: center;
   clear: both;
   width: 100%;
+}
+footer .icon{
+  padding-top: 5px;
+  text-align: center !important;
+  margin:auto !important;
 }
 .creative a{
   text-align: center;
@@ -73,12 +75,6 @@ footer{
   width: 100%;
   white-space: nowrap
 }
-.icon a{
-  white-space: nowrap;
-  text-align: center;
-  clear: both;
-  width: 100%;
-  }
 }
 /*スマホ表示ここまで*/
 
@@ -90,45 +86,62 @@ footer{
 
 .container{
   font-family: 'swiss',sans-serif;
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.clear{
+  clear:right;
+}
+
+header{
+  padding-left: 40px;
+  height: 66px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 header h1{
   float: left;
   font-size: 30px;
-  margin-left: 45px;
+}
+header h2 span{
+  display: inline-block;
+    border-bottom: 1px solid black;
+    width: 150px;
+    position: relative;
+    top: -4px;
+    margin-left: 4px;
+
 }
 
 .logo-right {
   float: right;
-  display: inline-block;
-  text-align: right;
+
   font-size: 12px;
-  margin-right: 45px;
+  margin-right: 35px;
 }
-.logo-right h2 span{
-
-
-  display: inline-block;
-      border-bottom: 1px solid black;
-      width: 150px;
-      position: relative;
-      top: -4px;
-      margin-left: 4px;
-      margin-right: 4px;
+.logo-right h3{
+  text-align: right;
 }
 
-.main-contents{
-  text-align: center;
+.article {
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
+text-decoration: none;
+padding-bottom: 15px;
+padding-top: 50px;
 }
-.main-contents a{
-padding-top: 150px;
-font-size: 24px;
-display: inline-block;
+.article a{
 text-decoration: none;
 color: black;
-font-weight: 600;
-margin-bottom: 20px;
+font-weight: bold;
+font-size: 20px;
 }
+
 
 .area{
   text-align: center;
@@ -151,13 +164,12 @@ margin-bottom: 20px;
     transition: 0.3s;
 }
 
-.ticket-menu{
-padding-top: 20px;
-}
+
 
 .ticket{
   padding: 20px;
-  width: 600px;
+  width:70%;
+  text-align: left;
   margin: auto;
 }
 
@@ -169,10 +181,13 @@ padding-top: 20px;
 .date{
 font-size: 14px;
 font-weight: bold;
+text-align: left;
+margin: auto;
 } /*新しいクラス分け*/
 .country{
 font-size: 14px;
 font-weight: bold;
+max-width: 70% !important;
 } /*新しいクラス分け*/
 
 .ticket a{
@@ -222,25 +237,26 @@ display: none;
 
 footer{
   padding-top: 30px;
+  font-weight: 600;
+  margin: auto !important;
 }
 .creative a{
   text-decoration: none;
   color: black;
   font-size: 13px;
-  margin:50px;
 }
 
 footer .icon {
-  float: right;
+  text-align: right;
   margin-right: 45px;
   font-family: 'swiss',sans-serif;
+  width: inherit;
 }
 
 .icon a{
   text-decoration: none;
   color: black;
   font-size: 13px;
-  padding-top: 20px;
   margin-left: 3px;
   font-family: 'swiss',sans-serif;
 }
