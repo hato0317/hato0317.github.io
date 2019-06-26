@@ -47,11 +47,11 @@ height: 100%;
   padding: 7px 5px !important;
 }
 .ticket span{
-  font-size: 12px;
+  font-size: 10px;
 }
 .ticket a{
   padding: 2px 8px !important;
-  font-size: 12px !important;
+  font-size: 10px !important;
   font-weight: 600 !important;
 }
 
@@ -73,7 +73,6 @@ footer .icon{
   text-align: center;
   clear: both;
   width: 100%;
-  white-space: nowrap
 }
 }
 /*スマホ表示ここまで*/
@@ -243,7 +242,7 @@ footer{
 .creative a{
   text-decoration: none;
   color: black;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 footer .icon {
@@ -256,7 +255,7 @@ footer .icon {
 .icon a{
   text-decoration: none;
   color: black;
-  font-size: 13px;
+  font-size: 10px;
   margin-left: 3px;
   font-family: 'swiss',sans-serif;
 }
