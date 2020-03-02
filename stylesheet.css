@@ -1,5 +1,5 @@
-
-@media only screen and (min-width:670px) {
+ 
+@media only screen and (min-width:770px) {
   .blur{
     display: none;
   }
@@ -261,9 +261,13 @@ height: 100%;
   font-weight: 600 !important;
 }
 
+.link{
+    margin:20px 0px 0px 0px;
+}
 .link a{
   font-size: 12px !important;
   font-weight: 600 !important;
+  margin: 0px 0px !important;
 }
 footer{
   text-align: center;
